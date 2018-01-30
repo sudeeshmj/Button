@@ -17,6 +17,8 @@ Button b1;
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"hello",Toast.LENGTH_LONG).show();
+                 Toast.makeText(MainActivity.this,"Android",Toast.LENGTH_LONG).show();
+                
             }
         });
     }
